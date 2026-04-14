@@ -26,8 +26,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='w-full border-t border-white/10 mt-5 pt-[10px] flex items-center justify-between flex-col-reverse gap-2 md:flex-row md:pt-5 md:mt-10 lg:pt-[30px]'>
-                        <p className='font-geist text-sm font-normal text-[#FAFAFA]/40 md:text-[15px] lg:text-base'>&copy; 2026 KeenKeeper. All rights reserved.</p>
-                        <div className='space-x-4 md:space-x-5 lg:space-x-10'>
+                        <p className='font-geist text-sm font-normal text-[#FAFAFA]/40 text-center md:text-[15px] lg:text-base'>&copy; 2026 KeenKeeper. All rights reserved.</p>
+                        <div className='space-x-4 text-center md:space-x-5 lg:space-x-10'>
                             {
                                 standardLink.map((link) => <Link key={link.id} to={'/'} className='font-geist text-sm font-normal text-[#FAFAFA]/40 transform transition-colors duration-300 hover:text-white md:text-[15px] lg:text-base'>{link.name}</Link>)
                             }
