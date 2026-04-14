@@ -10,6 +10,7 @@ const HomePage = () => {
                 <ContainerLayout>
                     <HeroSection></HeroSection>
                     <StatsSection></StatsSection>
+                    <div className='w-full border-t border-[#E9E9E9] my-6 md:my-8 lg:my-10'></div>
                 </ContainerLayout>
             </div>
         </>
