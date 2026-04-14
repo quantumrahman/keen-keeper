@@ -1,4 +1,4 @@
-import { createbrowserRouter } from 'react-router';
+import { createBrowserRouter } from 'react-router';
 
 import RootLayout from '../layouts/RootLayout.jsx'
 import HomePage from '../pages/HomePage/HomePage.jsx'
@@ -7,7 +7,7 @@ import TimelinePage from '../pages/TimelinePage/TimelinePage.jsx'
 import StatsPage from '../pages/StatsPage/StatsPage.jsx'
 import NotFoundPage from '../pages/NotFoundPage/NotFoundPage.jsx'
 
-const router = createbrowserRouter([
+const router = createBrowserRouter([
     {
         path: '/',
         Component: RootLayout,
