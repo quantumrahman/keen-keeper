@@ -27,7 +27,11 @@ const router = createBrowserRouter([
             {
                 path: '/stats',
                 Component: StatsPage
-            }
+            },
+            {
+                path: '*',
+                Component: NotFoundPage
+            },
         ]
     },
     {
