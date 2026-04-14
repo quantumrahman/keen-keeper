@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Abdullah Al-Faruq",
-    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "picture": "./friend-1.jpg",
     "email": "abdullah.faruq@gmail.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Ayesha Siddiqua",
-    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "picture": "./friend-4.jpg",
     "email": "ayesha.siddiqua@yahoo.com",
     "days_since_contact": 13,
     "status": "almost due",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Omar ibn Rashid",
-    "picture": "https://randomuser.me/api/portraits/men/33.jpg",
+    "picture": "./friend-2.jpg",
     "email": "omar.rashid@outlook.com",
     "days_since_contact": 6,
     "status": "on-track",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Fatimah Zahra Noor",
-    "picture": "https://randomuser.me/api/portraits/women/52.jpg",
+    "picture": "./friend-7.jpg",
     "email": "fatimah.noor@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Yusuf Al-Hanafi",
-    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "picture": "./friend-5.jpg",
     "email": "yusuf.hanafi@gmail.com",
     "days_since_contact": 11,
     "status": "almost due",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Maryam Khadijah",
-    "picture": "https://randomuser.me/api/portraits/women/60.jpg",
+    "picture": "./friend-6.jpg",
     "email": "maryam.khadijah@yahoo.com",
     "days_since_contact": 4,
     "status": "on-track",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Hasan Al-Qureshi",
-    "picture": "https://randomuser.me/api/portraits/men/70.jpg",
+    "picture": "./friend-3.png",
     "email": "hasan.qureshi@gmail.com",
     "days_since_contact": 22,
     "status": "overdue",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Zainab Binte Ali",
-    "picture": "https://randomuser.me/api/portraits/women/75.jpg",
+    "picture": "./friend-8.jpg",
     "email": "zainab.ali@outlook.com",
     "days_since_contact": 9,
     "status": "on-track",
