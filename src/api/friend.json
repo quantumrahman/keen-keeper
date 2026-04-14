@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Abdullah Al-Faruq",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "abdullah.faruq@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["madrasa friend", "imam family"],
+    "bio": "Met during madrasa studies. Comes from a family known for Islamic scholarship and community leadership.",
+    "goal": 14,
+    "next_due_date": "2026-04-08"
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Siddiqua",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "ayesha.siddiqua@yahoo.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["university", "religious studies"],
+    "bio": "Studied Islamic history together at university. Her family traces lineage to early Muslim scholars.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 3,
+    "name": "Omar ibn Rashid",
+    "picture": "https://randomuser.me/api/portraits/men/33.jpg",
+    "email": "omar.rashid@outlook.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["colleague", "developer"],
+    "bio": "Work colleague who often shares stories about his ancestors being involved in Islamic education.",
+    "goal": 10,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 4,
+    "name": "Fatimah Zahra Noor",
+    "picture": "https://randomuser.me/api/portraits/women/52.jpg",
+    "email": "fatimah.noor@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Family friend whose lineage is connected to the Prophet’s family traditions and values.",
+    "goal": 12,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 5,
+    "name": "Yusuf Al-Hanafi",
+    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "email": "yusuf.hanafi@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["mosque", "study circle"],
+    "bio": "Met at a mosque study circle. His family follows a long tradition of Islamic jurisprudence.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 6,
+    "name": "Maryam Khadijah",
+    "picture": "https://randomuser.me/api/portraits/women/60.jpg",
+    "email": "maryam.khadijah@yahoo.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["school friend", "charity work"],
+    "bio": "Known since school days. Actively involved in Islamic charity inspired by her family's legacy.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Hasan Al-Qureshi",
+    "picture": "https://randomuser.me/api/portraits/men/70.jpg",
+    "email": "hasan.qureshi@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["business", "community leader"],
+    "bio": "Business mentor whose family claims descent from the Qureshi tribe with strong Islamic roots.",
+    "goal": 10,
+    "next_due_date": "2026-04-06"
+  },
+  {
+    "id": 8,
+    "name": "Zainab Binte Ali",
+    "picture": "https://randomuser.me/api/portraits/women/75.jpg",
+    "email": "zainab.ali@outlook.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["online friend", "islamic content creator"],
+    "bio": "Connected through Islamic lectures online. Shares content inspired by early Muslim figures.",
+    "goal": 12,
+    "next_due_date": "2026-04-22"
+  }
+]
