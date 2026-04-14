@@ -20,7 +20,7 @@ const Footer = () => {
                             <h3 className='font-geist text-lg font-medium text-white md:text-[19px] lg:text-xl'>Social Links</h3>
                             <div className="w-full flex items-cneter justify-center gap-3">
                                 {
-                                    socialLinks.map((social) => <Link key={social.id} to={social.url}><SocialIcon socialType={social.icon}></SocialIcon></Link>)
+                                    socialLinks.map((social) => <Link key={social.id} to={social.url} className='transform transition-transform duration-300 hover:-translate-y-0.5'><SocialIcon socialType={social.icon}></SocialIcon></Link>)
                                 }
                             </div>
                         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <p className='font-geist text-sm font-normal text-[#FAFAFA]/40 md:text-[15px] lg:text-base'>&copy; 2026 KeenKeeper. All rights reserved.</p>
                         <div className='space-x-4 md:space-x-5 lg:space-x-10'>
                             {
-                                standardLink.map((link) => <Link key={link.id} to={'/'} className='font-geist text-sm font-normal text-[#FAFAFA]/40 transition-colors duration-300 hover:text-white md:text-[15px] lg:text-base'>{link.name}</Link>)
+                                standardLink.map((link) => <Link key={link.id} to={'/'} className='font-geist text-sm font-normal text-[#FAFAFA]/40 transform transition-colors duration-300 hover:text-white md:text-[15px] lg:text-base'>{link.name}</Link>)
                             }
                         </div>
                     </div>
