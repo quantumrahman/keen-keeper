@@ -18,6 +18,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/firend-details/:details',
+                loader: async ({ params }) => {
+                    const response = await fetch('/api/friend.json');
+                    const friends = await response.json();
+                    return friends.find((friend) => friend.id === Number(params.details));
+                }, 
                 Component: DetailsPage
             },
             {
