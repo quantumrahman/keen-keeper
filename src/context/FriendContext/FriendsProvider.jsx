@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { FriendContext } from './FriendContext.jsx'
 
 const FriendsProvider = ({ children }) => {
     const [friends, setFriends] = useState([]);
