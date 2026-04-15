@@ -9,7 +9,7 @@ const DetailRelationCard = ({ days }) => {
                         <span className="font-geist text-[13px] font-medium text-[#1F2937] group-hover:text-white md:text-sm">Edit</span>
                     </button>
                 </div>
-                <p className="font-geist text-[15px] font-normal text-[#64748B] mt-[14px] md:text-sm md:mt-4">Connect every <span className="font-bold text-[#1F2937]">{days} days</span></p>
+                <p className="font-geist text-[15px] font-normal text-[#64748B] mt-[14px] md:text-base md:mt-4 lg:text-lg">Connect every <span className="font-bold text-[#1F2937]">{days} days</span></p>
             </div>
         </>
     );
