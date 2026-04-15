@@ -2,11 +2,11 @@
   {
     "id": 1,
     "name": "Abdullah Al-Faruq",
-    "picture": "./friend-1.jpg",
+    "picture": "./images/friend-1.jpg",
     "email": "abdullah.faruq@gmail.com",
     "days_since_contact": 20,
     "status": "overdue",
-    "tags": ["madrasa friend", "imam family"],
+    "tags": ["teacher", "imam family"],
     "bio": "Met during madrasa studies. Comes from a family known for Islamic scholarship and community leadership.",
     "goal": 14,
     "next_due_date": "2026-04-08"
@@ -14,11 +14,11 @@
   {
     "id": 2,
     "name": "Ayesha Siddiqua",
-    "picture": "./friend-4.jpg",
+    "picture": "./images/friend-4.jpg",
     "email": "ayesha.siddiqua@yahoo.com",
     "days_since_contact": 13,
     "status": "almost due",
-    "tags": ["university", "religious studies"],
+    "tags": ["university", "student"],
     "bio": "Studied Islamic history together at university. Her family traces lineage to early Muslim scholars.",
     "goal": 14,
     "next_due_date": "2026-04-17"
@@ -26,23 +26,23 @@
   {
     "id": 3,
     "name": "Omar ibn Rashid",
-    "picture": "./friend-2.jpg",
+    "picture": "./images/friend-2.jpg",
     "email": "omar.rashid@outlook.com",
     "days_since_contact": 6,
     "status": "on-track",
-    "tags": ["colleague", "developer"],
+    "tags": ["developer"],
     "bio": "Work colleague who often shares stories about his ancestors being involved in Islamic education.",
     "goal": 10,
     "next_due_date": "2026-04-21"
   },
   {
     "id": 4,
-    "name": "Fatimah Zahra Noor",
-    "picture": "./friend-7.jpg",
+    "name": "Fatimah Noor",
+    "picture": "./images/friend-7.jpg",
     "email": "fatimah.noor@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
-    "tags": ["neighbor", "family friend"],
+    "tags": ["family friend"],
     "bio": "Family friend whose lineage is connected to the Prophet’s family traditions and values.",
     "goal": 12,
     "next_due_date": "2026-04-12"
@@ -50,11 +50,11 @@
   {
     "id": 5,
     "name": "Yusuf Al-Hanafi",
-    "picture": "./friend-5.jpg",
+    "picture": "./images/friend-5.jpg",
     "email": "yusuf.hanafi@gmail.com",
     "days_since_contact": 11,
     "status": "almost due",
-    "tags": ["mosque", "study circle"],
+    "tags": ["mosque", "study"],
     "bio": "Met at a mosque study circle. His family follows a long tradition of Islamic jurisprudence.",
     "goal": 14,
     "next_due_date": "2026-04-18"
@@ -62,11 +62,11 @@
   {
     "id": 6,
     "name": "Maryam Khadijah",
-    "picture": "./friend-6.jpg",
+    "picture": "./images/friend-6.jpg",
     "email": "maryam.khadijah@yahoo.com",
     "days_since_contact": 4,
     "status": "on-track",
-    "tags": ["school friend", "charity work"],
+    "tags": ["charity work"],
     "bio": "Known since school days. Actively involved in Islamic charity inspired by her family's legacy.",
     "goal": 7,
     "next_due_date": "2026-04-19"
@@ -74,11 +74,11 @@
   {
     "id": 7,
     "name": "Hasan Al-Qureshi",
-    "picture": "./friend-3.png",
+    "picture": "./images/friend-3.jpg",
     "email": "hasan.qureshi@gmail.com",
     "days_since_contact": 22,
     "status": "overdue",
-    "tags": ["business", "community leader"],
+    "tags": ["business"],
     "bio": "Business mentor whose family claims descent from the Qureshi tribe with strong Islamic roots.",
     "goal": 10,
     "next_due_date": "2026-04-06"
@@ -86,11 +86,11 @@
   {
     "id": 8,
     "name": "Zainab Binte Ali",
-    "picture": "./friend-8.jpg",
+    "picture": "./images/friend-8.jpg",
     "email": "zainab.ali@outlook.com",
     "days_since_contact": 9,
     "status": "on-track",
-    "tags": ["online friend", "islamic content creator"],
+    "tags": ["student", "work"],
     "bio": "Connected through Islamic lectures online. Shares content inspired by early Muslim figures.",
     "goal": 12,
     "next_due_date": "2026-04-22"
