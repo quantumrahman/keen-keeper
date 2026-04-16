@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Check } from 'lucide-react';
-
-import ToastContext from '../ToastContext/ToastContext.jsx'
+import { ToastContext } from '../ToastContext/ToastContext.jsx'
 
 const ToastProvider = ({ children }) => {
     const [showToast, setShowToast] = useState(false);
