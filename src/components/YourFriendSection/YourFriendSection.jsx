@@ -3,6 +3,7 @@ import { fetchFriend } from '../../service/fetchFriend.js'
 
 import SectionHeading from '../SectionHeading/SectionHeading.jsx'
 import FriendSection from '../FriendSection/FriendSection.jsx'
+import LoadingSpinner from '../LoadingSpinner/LoadingSpinner.jsx'
 
 const YourFriendSection = () => {
     const friendPromise = fetchFriend();
@@ -10,7 +11,7 @@ const YourFriendSection = () => {
     return (
         <>
             <SectionHeading>Your Friends</SectionHeading>
-            <Suspense fallback={<p>friend loading...</p>}>
+            <Suspense fallback={<LoadingSpinner></LoadingSpinner>}>
                 <FriendSection friendPromise={friendPromise}></FriendSection>
             </Suspense>
         </>
