@@ -49,7 +49,7 @@ const DetailQuickCheckCard = ({ friend }) => {
                     </button>
                     <button onClick={() => handleText(friend?.name)} className="w-full py-[14px] bg-[#F8FAFC] border border-[#E9E9E9] rounded-sm flex items-center justify-center gap-2 flex-col text-[#1F2937] transition-colors duration-200 ease-linear hover:bg-[#244D3F] hover:border-[#244D3F] hover:text-white group cursor-pointer md:rounded-lg">
                         <BiMessageDots size={22}></BiMessageDots>
-                        <span className="font-geist text-[15px] font-normal md:text-base lg:text-lg">Text</span>
+                        <span className="font-geist text-[15px] font-normal md:text-base lg:text-lg">Message</span>
                     </button>
                     <button onClick={() => handleVideo(friend?.name)} className="w-full py-[14px] bg-[#F8FAFC] border border-[#E9E9E9] rounded-sm flex items-center justify-center gap-2 flex-col text-[#1F2937] transition-colors duration-200 ease-linear hover:bg-[#244D3F] hover:border-[#244D3F] hover:text-white group cursor-pointer md:rounded-lg">
                         <LuVideo size={22}></LuVideo>
