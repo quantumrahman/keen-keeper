@@ -26,7 +26,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className={`w-full max-w-[350px] min-h-screen bg-white/20 fixed top-0 right-0 backdrop-blur-sm z-30 transform transition-transform duration-500 delay-500 ${toggle ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
+            <div className={`w-full max-w-[350px] min-h-screen bg-white fixed top-0 right-0 backdrop-blur-sm z-30 transform transition-transform duration-300 delay-300 ${toggle ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
                 <div className='w-full py-4.5 px-5'>
                     <button onClick={handleToggleMenu} className='cursor-pointer'>
                         <X color='#244D3F'></X>
