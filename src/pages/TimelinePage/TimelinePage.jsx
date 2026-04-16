@@ -72,7 +72,7 @@ const TimelinePage = () => {
                         filterTimeline.length === 0
                         ?
                         <div className='w-full min-h-[410px] bg-white rounded-sm py-4 px-4 border border-[#E9E9E9] flex items-center justify-center md:py-4 md:px-4 md:rounded-lg'>
-                            <h3 className='font-geist text-lg font-medium text-[#244D3F] md:text-xl'>No Timeline Add Yet!</h3>
+                            <h3 className='font-geist text-lg font-medium text-[#244D3F] text-center md:text-xl'>No Timeline Yet!</h3>
                         </div>
                         :
                         <div className='w-full flex items-center justify-center flex-col gap-3 md:gap-4 lg:gap-6'>
