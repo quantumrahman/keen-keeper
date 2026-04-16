@@ -6,13 +6,16 @@ import './index.css'
 import router from './routers/router.js'
 import FriendProvider from './context/FriendContext/FriendsProvider.jsx'
 import TimelineProvider from './context/TimelineContext/TimelineProvider.jsx'
+import ToastProvider from './context/ToastContext/ToastProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <TimelineProvider>
-      <FriendProvider>
-        <RouterProvider router={router}></RouterProvider>
-      </FriendProvider>
-    </TimelineProvider>
+    <ToastProvider>
+      <TimelineProvider>
+        <FriendProvider>
+          <RouterProvider router={router}></RouterProvider>
+        </FriendProvider>
+      </TimelineProvider>
+    </ToastProvider>
   </StrictMode>
 );
