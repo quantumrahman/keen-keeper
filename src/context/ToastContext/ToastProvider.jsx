@@ -21,11 +21,11 @@ const ToastProvider = ({ children }) => {
                 { children }
                 {
                     showToast && (
-                        <div className='fixed bottom-5 right-5 bg-white border border-[#E9E9E9] px-4 py-4 rounded-sm transition-opacity duration-500 ease-linear flex items-center justify-center gap-4'>
-                            <div className='p-4 bg-[#244D3F] rounded-full'>
-                                <Check size={16} color='#ffffff'></Check>
+                        <div className=' fixed bottom-5 left-5 bg-white border border-[#E9E9E9] rounded-lg p-3 transition-opacity duration-500 ease-linear flex items-center justify-center gap-2'>
+                            <div className='p-1 bg-[#244D3F] rounded-full'>
+                                <Check size={14} color='#ffffff'></Check>
                             </div>
-                            <p className='font-geist text-base font-medium text-[#244D3F] mb-2'>{toastMessage}</p>
+                            <p className='font-geist text-base font-medium text-[#244D3F]'>{toastMessage}</p>
                         </div>
                     )
                 }
