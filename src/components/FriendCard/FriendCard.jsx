@@ -12,7 +12,7 @@ const FirendCard = ({ friend }) => {
 
     return (
         <>
-            <div onClick={() => handleNavigate(friend?.id)} className="w-full flex items-center flex-col gap-3 bg-white p-4 border border-[#E9E9E9] rounded-lg cursor-pointer transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-sm md:p-6">
+            <div onClick={() => handleNavigate(friend?.id)} className="w-full flex items-center flex-col gap-3 bg-white p-4 border border-[#E9E9E9] rounded-lg cursor-pointer transition-transform duration-300 hover:-translate-y-2 md:p-6">
                 <div className="w-[60px] h-[60px] bg-[#E9E9E9] rounded-full overflow-hidden md:w-20 md:h-20">
                     <img src={friend?.picture} alt="user profile picture" />
                 </div>
