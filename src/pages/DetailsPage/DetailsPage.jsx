@@ -1,4 +1,5 @@
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigate } from 'react-router';
+import { ChevronLeft } from 'lucide-react';
 
 import ContainerLayout from '../../layouts/ContainerLayout.jsx';
 import PageHeading from '../../components/PageHeading/PageHeading.jsx'
@@ -12,9 +13,14 @@ import dateFormatter from '../../utils/dateFormatter.js'
 
 const DetailsPage = () => {
     const friend = useLoaderData();
+    const navigate = useNavigate();
     
     const {days_since_contact: days, next_due_date: date, goal} = friend;
     const formatedDate = dateFormatter(date);
+
+    const handleNavigate = () => {
+        navigate('/');
+    };
 
     return (
         <>
@@ -30,7 +36,7 @@ const DetailsPage = () => {
                                 <DetailButton buttonType='secondary' text='Delete' iconType={'delete'}></DetailButton>
                             </div>
                         </div>
-                        <div className='w-full sm:w-[50%] space-y-3 md:w-[60%]  md:space-y-6 lg:w-[70%]'>
+                        <div className='w-full sm:w-[50%] space-y-3 md:w-[60%] md:space-y-6 lg:w-[70%]'>
                             <div className='w-full grid grid-cols-1 gap-3 lg:gap-6 lg:grid-cols-3'>
                                 <DetailStatsCard value={`${days < 10 ? `0${days}` : days}`} text='Days Since Contact'></DetailStatsCard>
                                 <DetailStatsCard value={goal} text='Goal (Days)'></DetailStatsCard>
@@ -39,6 +45,12 @@ const DetailsPage = () => {
                             <DetailRelationCard days={`${days < 10 ? `0${days}` : days}`}></DetailRelationCard>
                             <DetailQuickCheckCard friend={friend}></DetailQuickCheckCard>
                             <DetailsRecentCard></DetailsRecentCard>
+                            <div className='w-full flex justify-end'>
+                                <button onClick={handleNavigate} className="font-geist text-sm font-semibold text-white flex items-center justify-center gap-1 bg-[#244D3F] py-[10px] px-[14px] rounded-sm transform transition-transform duration-300 hover:-translate-y-0.5 mt-4 md:mt-8 md:text-base md:py-3 md:px-4 cursor-pointer">
+                                    <ChevronLeft></ChevronLeft>
+                                    Go Back
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </ContainerLayout>
