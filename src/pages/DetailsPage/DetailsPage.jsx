@@ -9,12 +9,15 @@ import DetailRelationCard from '../../components/DetailRelationCard/DetailRelati
 import DetailQuickCheckCard from '../../components/DetailQuickCheckCard/DetailQuickCheckCard.jsx'
 import DetailsRecentCard from '../../components/DetailsRecentCard/DetailRecentCard.jsx'
 import dateFormatter from '../../utils/dateFormatter.js'
+import useTimeline from '../../hooks/useTimeline.jsx';
 
 const DetailsPage = () => {
     const friend = useLoaderData();
     
     const {days_since_contact: days, next_due_date: date, goal} = friend;
     const formatedDate = dateFormatter(date);
+    const timeline = useTimeline()
+    console.log(timeline.timeline);
 
     return (
         <>
@@ -37,7 +40,7 @@ const DetailsPage = () => {
                                 <DetailStatsCard value={formatedDate} text='Next Due'></DetailStatsCard>
                             </div>
                             <DetailRelationCard days={`${days < 10 ? `0${days}` : days}`}></DetailRelationCard>
-                            <DetailQuickCheckCard></DetailQuickCheckCard>
+                            <DetailQuickCheckCard friend={friend}></DetailQuickCheckCard>
                             <DetailsRecentCard></DetailsRecentCard>
                         </div>
                     </div>

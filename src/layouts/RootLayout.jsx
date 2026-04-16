@@ -7,7 +7,7 @@ const RootLayout = () => {
 
     return (
         <>
-            <div className='w-full min-h-screen flex items-center justify-between flex-col'>
+            <div className='w-full min-h-screen bg-[#F8FAFC] flex items-center justify-between flex-col'>
                 <Header></Header>
                 <Outlet></Outlet>
                 <Footer></Footer>
