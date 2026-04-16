@@ -32,7 +32,7 @@ const StatsPage = () => {
                                     </div>
                                     <div className='space-x-1'>
                                         <div className='w-[8px] h-[8px] bg-[#37A163] rounded-full inline-block'></div>
-                                        <span className='font-geist text-xs font-normal text-[#64748B] md:text-sm'>Call</span>
+                                        <span className='font-geist text-xs font-normal text-[#64748B] md:text-sm'>Video</span>
                                     </div>
                                 </div>
                             </>
