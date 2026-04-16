@@ -14,7 +14,7 @@ const StatsPage = () => {
                     <div className='w-full min-h-[410px] bg-white border border-[#E9E9E9] rounded-lg flex items-center justify-center flex-col gap-2 py-5 px-5 lg:px-8 lg:py-8'>
                         {
                             timeline.length === 0
-                            ? <h3 className='font-geist text-lg font-medium text-[#244D3F] md:text-xl'>No Timeline Add Yet!</h3>
+                            ? <h3 className='font-geist text-lg font-medium text-[#244D3F] md:text-xl'>Please Interact With Your Friends!</h3>
                             : 
                             <>
                                 <div className='w-full text-left mb-3 md:mb-6'>
