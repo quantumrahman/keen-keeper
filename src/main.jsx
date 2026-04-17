@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router'
 import './index.css'
 
-import router from './routers/router.js'
+import router from './routers/router.jsx'
 import FriendProvider from './context/FriendContext/FriendsProvider.jsx'
 import TimelineProvider from './context/TimelineContext/TimelineProvider.jsx'
 import ToastProvider from './context/ToastContext/ToastProvider.jsx'

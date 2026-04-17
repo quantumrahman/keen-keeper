@@ -21,9 +21,19 @@ const router = createBrowserRouter([
                 loader: async ({ params }) => {
                     const response = await fetch('/api/friend.json');
                     const friends = await response.json();
-                    return friends.find((friend) => friend.id === Number(params.details));
+
+                    const friend = friends.find(
+                        (friend) => friend?.id === Number(params.details)
+                    );
+
+                    if (!friend) {
+                        throw new Response("Not Found", { status: 404 });
+                    };
+
+                    return friend;
                 }, 
-                Component: DetailsPage
+                Component: DetailsPage,
+                errorElement: <NotFoundPage />
             },
             {
                 path: '/timeline',
